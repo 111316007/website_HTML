@@ -2,163 +2,171 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>XXX's Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Black Mamba - Kobe Bryant</title>
 </head>
 <body>
-    <!-- 頁頭區 -->
+
     <header>
-        <h1>XXX 的個人部落格</h1>
-        <nav>
-            <a href="#section1">關於我</a>
-            <a href="#section2">工作經歷</a>
-            <a href="#section3">工作技能</a>
-            <a href="#section4">音樂作品</a>
-            <a href="#section5">視訊作品</a>
-            <a href="#section6">圖片作品</a>
-            <a href="#section7">更多資訊</a>
-        </nav>
+        <h1>Kobe Bryant</h1>
+        <p>Mamba Mentality | 1978 - 2020</p>
     </header>
+
+    <nav>
+        <a href="#about">關於傳奇</a>
+        <a href="#career">生涯數據</a>
+        <a href="#skills">曼巴技能</a>
+        <a href="#gallery">經典時刻</a>
+        <a href="#media">影音回顧</a>
+        <a href="#more">更多資訊</a>
+    </nav>
     
-    <!-- 主內容區 -->
-    <main>
-        <!-- 側邊欄補充資訊 -->
-        <aside style="width:30%; float:right;">
+    <div class="container">
+        <main>
+            <article id="about">
+                <header>
+                    <h2>關於傳奇</h2>
+                </header>
+                <section>
+                    <table style="border:none;">
+                        <tr style="background:none;">
+                            <td style="border:none; width: 150px;">
+                                <img src="https://via.placeholder.com/150x150/552583/FDB927?text=Kobe" alt="Kobe Bryant" style="border-radius:50%; width:150px;">
+                            </td>
+                            <td style="border:none;">
+                                <h3>NBA 歷史上最偉大的得分手之一</h3>
+                                <p>效力於 <mark>洛杉磯湖人隊</mark> 長達 20 年。他是 5 次 NBA 總冠軍得主，兩屆奧運金牌，以及奧斯卡獲獎者。</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>Kobe 以其堅韌不拔的意志力聞名，他將這種精神稱為<strong>「曼巴精神」(Mamba Mentality)</strong>：意指在凌晨四點起床訓練，不斷追求卓越，永不言棄的態度。</p>
+                </section>
+            </article>
+
+            <article id="career">
+                <header>
+                    <h2>生涯里程碑</h2>
+                </header>
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>年份/項目</th>
+                                <th>成就詳情</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>NBA 總冠軍</td>
+                                <td>2000, 2001, 2002, 2009, 2010 (共5次)</td>
+                            </tr>
+                            <tr>
+                                <td>單場最高得分</td>
+                                <td>對戰暴龍隊豪取 <strong>81分</strong> (2006)</td>
+                            </tr>
+                            <tr>
+                                <td>NBA 全明星</td>
+                                <td>18 次入選</td>
+                            </tr>
+                            <tr>
+                                <td>退休背號</td>
+                                <td>8號 與 24號 (湖人隊)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+
+            <article id="skills">
+                <header>
+                    <h2>球場技能包</h2>
+                </header>
+                <section>
+                    <table>
+                        <tr>
+                            <td>後仰跳投 (Fadeaway)</td>
+                            <td>⭐⭐⭐⭐⭐ (無人能防)</td>
+                        </tr>
+                        <tr>
+                            <td>關鍵一擊 (Clutch)</td>
+                            <td>⭐⭐⭐⭐⭐ (黑曼巴殺手本色)</td>
+                        </tr>
+                        <tr>
+                            <td>防守壓迫 (Defense)</td>
+                            <td>⭐⭐⭐⭐☆ (9次年度防守第一隊)</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+
+            <article id="gallery">
+                <h2>經典時刻</h2>
+                <div class="media-grid">
+                    <figure>
+                        <img src="https://via.placeholder.com/250x150/000000/FFFFFF?text=Dunking" alt="扣籃英姿">
+                        <figcaption>飛身爆扣</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://via.placeholder.com/250x150/FDB927/552583?text=Championship" alt="奪冠時刻">
+                        <figcaption>總冠軍榮耀</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://via.placeholder.com/250x150/552583/FDB927?text=Mamba+Out" alt="退役戰">
+                        <figcaption>Mamba Out</figcaption>
+                    </figure>
+                </div>
+            </article>
+
+            <article id="media">
+                <h2>影音回顧與主場</h2>
+                
+                <h3>致敬影片</h3>
+                <video controls width="100%" style="background:black; max-width:500px;">
+                    <source src="assets/video/dear_basketball.mp4" type="video/mp4">
+                    您的瀏覽器不支援影片標籤。
+                </video>
+
+                <h3>永遠的主場：Staples Center</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.733248043701!2d-118.2672541847852!3d34.04301748060882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b85dea2a93%3A0x1ff47c3ceb7bb2d5!2sCrypto.com%20Arena!5e0!3m2!1szh-TW!2stw!4v1668754321000!5m2!1szh-TW!2stw" 
+                    width="100%" height="300" style="border:0; margin-top:20px;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </article>
+
+            <article id="more">
+                <h2>了解更多</h2>
+                <details>
+                    <summary style="cursor:pointer; font-weight:bold; color:var(--lakers-purple);">
+                        點擊查看：什麼是「曼巴精神」？
+                    </summary>
+                    <p style="padding:10px; background:#f9f9f9;">
+                        "Mamba Mentality is all about focusing on the process and trusting in the hard work when it matters most."<br>
+                        曼巴精神不僅是籃球，而是關於生活。它意味著每天都要努力成為比昨天更好的自己。
+                    </p>
+                </details>
+            </article>
+        </main>
+
+        <aside>
+            <h3>每日曼巴格言</h3>
             <blockquote>
-                <h3>學習小貼士</h3>
-                <p>記得提前預習課程內容，並查詢相關資料以加深理解。</p>
+                "Heroes come and go, but legends are forever."
+                <br><br>
+                <small>— Kobe Bryant</small>
             </blockquote>
+            <hr style="border-color: #444;">
+            <h4>生涯數據速覽</h4>
+            <ul style="padding-left: 20px;">
+                <li>總得分：33,643</li>
+                <li>場均得分：25.0</li>
+                <li>總上場時間：48,637 分鐘</li>
+            </ul>
         </aside>
-
-        <!-- 個人介紹 -->
-        <article id="section1">
-            <header>
-                <h2>關於我</h2>
-                <p>在此部落格中，將分享我在工作上及生活中的點滴。</p>
-            </header>
-            <section>
-                <table cellspacing="20">
-                    <tr>
-                        <td><img src="assets/images/SL photo.jpg" alt="Steven picture"></td>
-                        <td><h1>Steven</h1><p>
-                            <em><strong><a href="https://www.ntue.edu.tw/">國立台北教育大學</a></strong>助理教授</em></p></td>
-                    </tr>
-                </table>
-            </section>
-            <section>
-                <p>我是一位大學教授，專注教授<mark>人工智慧</mark> 和 <mark>Python 程式設計</mark>，並致力於 <mark>深度學習</mark> 與 <mark>生成式 AI </mark>在教育及工程應用上的創新研究與應用，並熱愛分享知識，鼓勵學生在學術與實踐中成長，追求卓越。</p>
-                <p>此外，我也熱愛旅遊、音樂與閱讀，希望將藝術與科技結合，為教學與研究注入更多元的靈感與視野。</p>
-            </section>
-        </article>
-
-        <!-- 工作經歷介紹 -->
-        <article id="section2">
-            <header>
-                <h2>工作經歷</h2>
-            </header>
-            <section>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Dates</th>
-                            <th>Work</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>2018-2024</td>
-                            <td>國立台北教育大學資訊科學系</td>
-                        </tr>
-                        <tr>
-                            <td>2018-2024</td>
-                            <td>XX科技公司執行長</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </article>
-
-        <!-- 技能介紹 -->
-        <article id="section3">
-            <header>
-                <h2>工作技能</h2>
-            </header>
-            <section>
-                <table>
-                    <tr>
-                        <td>Java</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>C++</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Python</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </section>
-        </article>
-
-        <!-- 音樂作品介紹 -->
-        <article id="section4">
-            <h2>音訊介紹</h2>
-            <audio controls>
-                <!-- 改為你的作品 -->
-                <source src="assets/audio/Whispers in the Trees 1.mp3" type="audio/mpeg">
-            </audio>
-        </article>
-
-        <!-- 視訊作品介紹 -->
-        <article id="section5">
-            <h2>視訊介紹</h2>
-            <video controls width="300">
-                <!-- 改為你的作品 -->
-                <source src="assets/video/Whispers in the Trees 1.mp4" type="audio/mpeg">                
-            </video>
-            &nbsp;&nbsp;<!-- 添加間隔 -->
-            <video controls width="300">
-                <!-- 改為你的作品 -->
-                <source src="assets/video/Rise Up and Shine.mp4" type="video/mp4">
-            </video>
-        </article>
-
-        <!-- 圖片作品集介紹與描述 -->
-        <article id="section6">
-            <h2>旅行照片集</h2>
-            <figure style="display:inline-block;">
-                <!-- 改為你的作品 -->
-                <img src="assets/images/mountain.jpg" alt="山間風景" width="450">
-                <figcaption>壯麗的山景</figcaption>
-            </figure>
-            <figure style="display:inline-block;">
-                <!-- 改為你的作品 -->
-                <img src="assets/images/village.jpg" alt="小鎮景色" width="450">
-                <figcaption>寧靜的小鎮</figcaption>
-            </figure>
-        </article>
-
-        <!-- 嵌入PDF文件 -->
-        <article id="section7">
-            <h2>更多資訊</h2>
-            <!-- 改為你的作品 -->
-            <embed src="assets/pdf/llm models.pdf" width="500" height="600">
-        </article>
-
-        <!-- 互動元素 -->
-        <details>
-            <summary>點擊查看學習提示</summary>
-            <p>建議攜帶筆記本與筆，方便隨時記錄課堂中的關鍵知識點與靈感。</p>
-        </details>
-
-        <!-- 加入地圖 -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.2784024338266!2d121.54206247541927!3d25.02462437782254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a908a8232611%3A0xeebfb2d71a5025c7!2z5ZyL56uL6Ie65YyX5pWZ6IKy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1731827435609!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
-    </main>
+    </div>
     
-    <!-- 頁尾區 -->
     <footer>
-        <p>聯絡我們：contact@personalblog.com</p>
-        <time datetime="2024-11-17">最後更新日期：2024年11月17日</time>
+        <p>R.I.P. Kobe & Gigi | 此網站為致敬設計</p>
+        <time datetime="2024-01-26">紀念日：1月26日</time>
     </footer>
 </body>
 </html>
